@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="EMIR" content="width= scrip, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <script>
         // // let name = "EMR"
         // // let bol = false
         // // let num = 123
         // // let big = 132342432324532454325n
-        
+
         // // console.log(name);
 
 
         // //условные операторы
- 
+
         // console.log(2>1); // true
         // console.log(3>5); //false
         // console.log(2 == 2); //true
@@ -47,18 +49,119 @@
         // console.log(true == 1); //TRUE
         // console.log(false == 0); //TRUE
 
-        console.log("0" == false);//true
-        console.log("0" == true);//false
+        // console.log("0" == false);//true
 
-        console.log(Boolean(""));
+        // console.log("0" == true);//false
+
+        // console.log(Boolean("0"));// true
+
+        // console.log(Boolean("0")); //false
+
+        // let a  = Boolean(0)//false
+        // let b  = Boolean("0")//true 
+        // console.log(a==b);
+
+
+        // console.log(1 == "01"); //true
+
+        // console.log("a" == true); // false (this is NaN)
+
+
+
+
+        // не строгое сравнение (==)
+
+        // console.log( 1 == 1); //true
+        // console.log( 1 == "1");//true
+        // console.log( 1 == "2");//false
+        // console.log( false == "0");//true
+        // console.log( "a" == "a");//true
+
+
+        //строгое сравнение
+
+
+        // console.log(1 === 1);//true
+        // console.log( 1 === "1");//false
+        // console.log( "abc" === true);//false
+        // console.log( 1 === true);//false
+
+
+
+        //логические операторы
+        // || , | (ИЛИ)
+
+        // console.log(true || true);//true
+        // console.log(1 || true);// 1
+        // console.log(0 || 1 || true);//1
+        // console.log(0 || false || NaN || 1 || ""); // 1
+        // console.log(undefined || null || NaN || 0); //0
+
+
+        // && , & (И)
+
+        // console.log(1 && true);//true
+        // console.log(1 && true && "A" && null && 2); //null
+        // console.log("abc" && 1 && true && 123); // 123
+
+
+
+        // ! (НЕ)
+
+
+
+        // console.log(!  true); //false
+        // console.log(!0); //true
+        // console.log(!null);//true
+
+        // !! (НЕ НЕ)
+
+        // console.log(!! true);// true
+        // console.log(!! false);//false
+
+
+        let year = prompt('В каком году была опубликована спецификация ECMAScript-2015?', '');
+
+        /* инструкция prompt выведет всплывающее окно с вопросом 'В каком году была опубликована спецификация ECMAScript-2015?' и возможностью ввести ответ при открытии страницы */
+
+        if (year == 2015){ 
+                           alert('Вы правы!');
+        }
+        // инструкция alert выведет всплывающее окно с текстом ‘Вы правы!’
 
 
 
 
 
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     </script>
 </body>
+
 </html>
